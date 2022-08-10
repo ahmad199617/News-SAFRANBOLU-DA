@@ -740,19 +740,19 @@
                                     display: flex;
                                     justify-content: center;
                                 }
-                            .Project-big-img{
-                                height: 400px;
-                                width: 400px;
-                                overflow: hidden;
-                                display: flex;
-                                justify-content: center;
-                                align-content: center;
-                            }
-                            .Project-img{
-                                position: relative;
-                                transition: all 0.2s;
-                                
-                            }
+                                .Project-big-img {
+                                    height: 400px;
+                                    width: 400px;
+                                    overflow: hidden;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+                                .Project-img {
+                                    position: relative;
+                                    transition: all 0.2s;
+                                    height: -webkit-fill-available;
+                                }
                             
                             .Project-big-info{
                                 height: 100%;
@@ -833,7 +833,7 @@
                                 }
                                 .Project-M-DIV {
                                      height: auto; 
-                                    width: 80%;
+                                    width: 90%;
                                     display: flex;
                                     justify-content: center;
                                     flex-direction: column;
@@ -841,7 +841,7 @@
                                 }
                                 .lien-MM-DIV {
                                     height: 100px;
-                                    width: 65%;
+                                    width: 90%;
                                     display: flex;
                                     align-items: center;
                                 }
@@ -858,7 +858,7 @@
                                     width: 100%;
                                 }
                                 .Project-text-s {
-                                    font-size: 12px;
+                                    font-size: 14px;
                                     margin: 0;
                                     font-weight: bolder;
                                 }
@@ -872,7 +872,7 @@
                                     margin-bottom: 30px;
                                 }
                                 .Project-text-M {
-                                    font-size: 15px;
+                                    font-size: 18px;
                                     margin: 0;
                                     margin-top: 20px;
 
@@ -904,22 +904,21 @@
                                 margin-bottom: 50px;
                             }
                             .M-img-div {
-                                width: 80%;
+                                width: 65%;
                                 display: flex;
-                                justify-content: center;
+                                justify-content: space-between;
                                 flex-wrap: wrap;
                             }
-                            .S-img-div{
-                                height: 250px;
-                                width: 400px;
+                            .S-img-div {
+                                height: 200px;
+                                width: 350px;
                                 overflow: hidden;
-                                margin: 30px;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
+                                margin-bottom: 30px;
                             }
                             .M-img-R{
-                                height: inherit;
                                 transition: all 0.2s;
                                 width: inherit;
                             }
@@ -927,7 +926,7 @@
 
                             @media only screen and (max-width: 1000px) {
                                 .M-img-div {
-                                    width: 80%;
+                                    width: 90%;
                                     display: flex;
                                     justify-content: center;
                                     flex-wrap: wrap;
